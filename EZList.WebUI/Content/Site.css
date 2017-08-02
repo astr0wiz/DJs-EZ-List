@@ -1,0 +1,41 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* ====================== LISTS =========================== */
+
+.list-container-top {
+    border: solid 1px orange;
+}
+
+.list-container {
+    border: solid 1px green;
+    margin-top: -1px;
+}
+
+div[class^="list-container"] {
+    padding: 8px 20px;
+}
+
+div[class^="list-container"] > h3 {
+    margin: 0;
+}
+
+div[class^="list-container"]:hover {
+    background-color: aquamarine;
+    border-color: black;
+}
